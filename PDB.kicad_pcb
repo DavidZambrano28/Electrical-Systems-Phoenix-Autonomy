@@ -16290,30 +16290,6 @@
 		)
 	)
 	(zone
-		(net "+15V")
-		(layer "F.Cu")
-		(uuid "c401f015-c22a-4a9a-8a91-2907a9603df8")
-		(name "output")
-		(hatch edge 0.5)
-		(priority 4)
-		(connect_pads yes
-			(clearance 0.5)
-		)
-		(min_thickness 0.25)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 0)
-		)
-		(polygon
-			(pts
-				(xy 194.5 32.5) (xy 194.5 36) (xy 196.5 38) (xy 201 38) (xy 202 37) (xy 202 36.5) (xy 204.5 36.5)
-				(xy 204.5 37) (xy 205.5 38.175) (xy 207.5 38.175) (xy 207.5 41) (xy 209 42) (xy 214 42) (xy 215.5 41)
-				(xy 215.5 32.5) (xy 214.5 31.5) (xy 195.5 31.5)
-			)
-		)
-	)
-	(zone
 		(layer "F.Mask")
 		(uuid "62f04283-e624-4505-8afc-21e90675f828")
 		(hatch edge 0.5)

@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -140,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.127,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -153,7 +159,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.16,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -203,7 +209,14 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.16,
+        0.2,
+        0.3,
+        0.5,
+        0.6
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +243,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -661,7 +683,7 @@
         "uuid": "92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805"
       }
     ],
-    "used_designators": "U1-4,#PWR1-9",
+    "used_designators": "U1-6,Cout_12V_1-4,L1-2,Cboot_1,L1_1,#PWR1-30,C1-3,Rfbb_15V1,Cboot_12V1,Cin_1-2,Cboot1,LDO_Cout1,Q1,Rpgood_5V1,Cff_5V1,Cboot_5V1,Cin_5V1,Rfbt1,Cvcc_1,Cinx1,Rfbt_1,Cinx_1,Rfbt_5V1,Cinx_5V1,Cout1,Cout1_5V1,Cout2_5V1,Cvcc_15V1,Cout_12_1-2,Coutx_12V1,Coutx1,Coutx_1,Coutx_5V1,Cvcc_12V1,Cvcc1,Cvcc_5V1,Rfbb1-2,Cin_15V1,Rfbb_1,Rpgood_12V1,Rpgood1,Rpgood_1,Rfbt_12V1,Cinx_12V1,Rt_5V1,Rpgood_15V1,J1-7,Rfbb_12V1,Cboot_15V1,Cin_12V1,Cout_15V1,Coutx_15V1,L1_12V1,L2_15V1,Cinx_15V1,L1_5V1,Rfbt_15V1,L1_15V1,Cout_LDO1,A1,LDO_Cin1,Cout_5V_1-2",
     "variants": []
   },
   "sheets": [
