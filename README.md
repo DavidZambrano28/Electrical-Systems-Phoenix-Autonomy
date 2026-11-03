@@ -1,8 +1,10 @@
-Florida Polytechnic University RoboBoat main board development tracking. 
+# FPU RoboBoat Main Board
 
-<img width="6000" height="6000" alt="logoTP" src="https://github.com/user-attachments/assets/03fd0c31-e668-4284-8ae5-73d3e616ccd2" />
+<img width="4341" height="2704" alt="logoTP" src="https://github.com/user-attachments/assets/ef87d0be-14d3-485b-b96a-e713eab52e08" />
 
 This board contains circuitry for power delivery, ESC commanding, and LoRa interfacing for a robust electrical system.
+
+## Features:
 
 **Power Delivery:**
 
