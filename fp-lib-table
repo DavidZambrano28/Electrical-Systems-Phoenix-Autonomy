@@ -5,4 +5,5 @@
 	(lib (name "BulkCapacitor_100u") (type "KiCad") (uri "${KIPRJMOD}/ImportedComponents/EEE_FP1V101AP/KiCADv6/footprints.pretty") (options "") (descr ""))
 	(lib (name "BulkCapacitor_150u") (type "KiCad") (uri "${KIPRJMOD}/ImportedComponents/EEE_FP1V151AP/KiCADv6/footprints.pretty") (options "") (descr ""))
 	(lib (name "Inductor_8.2u") (type "KiCad") (uri "${KIPRJMOD}/ImportedComponents/1217AS_H_150M_P3/footprints.pretty") (options "") (descr ""))
+	(lib (name "footprints") (type "KiCad") (uri "${KIPRJMOD}/ImportedComponents/RSX501LAM20TR/KiCADv6/footprints.pretty") (options "") (descr ""))
 )

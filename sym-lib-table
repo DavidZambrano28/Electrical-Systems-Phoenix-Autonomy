@@ -4,4 +4,5 @@
 	(lib (name "BulkCap_100u") (type "KiCad") (uri "${KIPRJMOD}/ImportedComponents/EEE_FP1V101AP/KiCADv6/2026-10-09_18-18-16.kicad_sym") (options "") (descr ""))
 	(lib (name "BulkCap_150u") (type "KiCad") (uri "${KIPRJMOD}/ImportedComponents/EEE_FP1V151AP/KiCADv6/2026-10-09_18-26-33.kicad_sym") (options "") (descr ""))
 	(lib (name "Inductor_8.2u") (type "KiCad") (uri "${KIPRJMOD}/ImportedComponents/1217AS_H_150M_P3/1217AS-H-150M_P3.kicad_sym") (options "") (descr ""))
+	(lib (name "2026-11-02_02-51-34") (type "KiCad") (uri "${KIPRJMOD}/ImportedComponents/RSX501LAM20TR/KiCADv6/2026-11-02_02-51-34.kicad_sym") (options "") (descr ""))
 )

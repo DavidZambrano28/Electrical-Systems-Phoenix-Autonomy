@@ -3229,7 +3229,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15175e71-36fc-46a5-928d-19240f8e47d0")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 88.9 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3295,7 +3295,7 @@
 			)
 			(project "PDB"
 				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3488,7 +3488,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "221fe4d9-f4de-426c-b3f5-72a938da98fe")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 248.92 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3555,7 +3555,7 @@
 			)
 			(project "PDB"
 				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3573,7 +3573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47d096a7-9fe0-42fa-bf70-d3c3c7c2f411")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 144.78 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -3639,7 +3639,7 @@
 			)
 			(project "PDB"
 				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
-					(reference "#PWR025")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3656,7 +3656,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56f2a3c2-beaf-4b02-8888-5f42ea7a736d")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 73.66 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3723,7 +3723,7 @@
 			)
 			(project "PDB"
 				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4263,7 +4263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2bbbb8a-50fb-4f81-91d1-2d29c415d5f5")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR028"
 			(at 166.37 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4329,7 +4329,7 @@
 			)
 			(project "PDB"
 				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
-					(reference "#PWR026")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4430,7 +4430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a88a6c38-48a8-4a65-9591-4b89bd078161")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 110.49 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4496,7 +4496,7 @@
 			)
 			(project "PDB"
 				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)

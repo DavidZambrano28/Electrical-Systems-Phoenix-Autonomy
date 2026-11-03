@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 0.2032,
+          "height": 0.499999,
+          "width": 0.499999
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.7,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_spoke_width": 0.7
         }
       },
       "diff_pair_dimensions": [
@@ -215,7 +215,9 @@
         0.2,
         0.3,
         0.5,
-        0.6
+        0.6,
+        0.8,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -633,12 +635,48 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -683,7 +721,7 @@
         "uuid": "92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805"
       }
     ],
-    "used_designators": "U1-6,Cout_12V_1-4,L1-2,Cboot_1,L1_1,#PWR1-30,C1-3,Rfbb_15V1,Cboot_12V1,Cin_1-2,Cboot1,LDO_Cout1,Q1,Rpgood_5V1,Cff_5V1,Cboot_5V1,Cin_5V1,Rfbt1,Cvcc_1,Cinx1,Rfbt_1,Cinx_1,Rfbt_5V1,Cinx_5V1,Cout1,Cout1_5V1,Cout2_5V1,Cvcc_15V1,Cout_12_1-2,Coutx_12V1,Coutx1,Coutx_1,Coutx_5V1,Cvcc_12V1,Cvcc1,Cvcc_5V1,Rfbb1-2,Cin_15V1,Rfbb_1,Rpgood_12V1,Rpgood1,Rpgood_1,Rfbt_12V1,Cinx_12V1,Rt_5V1,Rpgood_15V1,J1-7,Rfbb_12V1,Cboot_15V1,Cin_12V1,Cout_15V1,Coutx_15V1,L1_12V1,L2_15V1,Cinx_15V1,L1_5V1,Rfbt_15V1,L1_15V1,Cout_LDO1,A1,LDO_Cin1,Cout_5V_1-2",
+    "used_designators": "U1-6,Cout_12V_1-4,12V_Out1,L1-2,Cboot_1,L1_1,#PWR1-38,Batt_In1-2,C1-3,Rfbb_15V1,Cboot_12V1,Cin_1-2,Cboot1,Q1,LDO_Cout1,Rpgood_5V1,Cff_5V1,Cboot_5V1,Cin_5V1,Cinx1,Rfbt1,Cvcc_1,Cinx_1,Rfbt_1,Cinx_5V1,Rfbt_5V1,Cout1,Cout1_5V1,Cout2_5V1,Cvcc_15V1,Cout_12_1-2,Coutx_12V1,Coutx1,Coutx_1,Coutx_5V1,Cvcc_12V1,Cvcc1,Cvcc_5V1,Rfbb1-2,Rfbb_1,Cin_15V1,Rpgood_12V1,Rpgood1,Rpgood_1,Cinx_12V1,Rfbt_12V1,Rt_5V1,J1-7,Rpgood_15V1,R1-4,Rfbb_12V1,Cboot_15V1,TP1,Cin_12V1,ESC_out1,Cout_15V1,Coutx_15V1,L1_12V1,L2_15V1,Rfbt_15V1,Cinx_15V1,L1_5V1,12V_TP1,L1_15V1,Cout_LDO1,A1,LDO_Cin1,Cout_5V_1-2,ESC_Out1,LoRa_In1,3S_Input1,Contactor_Output1,15V_Out1,15V_TP1,5V_TP1,RedButton_In1,FlySky_Receiver1,D1,RDY_LED1-2",
     "variants": []
   },
   "sheets": [
