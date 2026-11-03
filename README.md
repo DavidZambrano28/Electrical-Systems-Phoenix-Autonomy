@@ -21,3 +21,7 @@ The board will also include a "READY" LED and a "INDICATOR" LED, the former only
 **Thruster Control**
 
 The Pico will also interface and command the thruster ESC via a JST-XH connector. Commands to the Pico will be gathered over serial via the RX pin from either the FlySky transmitter or the Jetson Nano.
+
+## Authors
+
+- [David Zambrano] - [@TheDogIsHungry](https://www.github.com/octokatherine)
