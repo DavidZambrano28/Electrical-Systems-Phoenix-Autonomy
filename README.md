@@ -1,10 +1,10 @@
-# FPU RoboBoat Main Board
+# FPU RoboBoat Electrical Systems
 
 <img width="4341" height="2704" alt="logoTP" src="https://github.com/user-attachments/assets/ef87d0be-14d3-485b-b96a-e713eab52e08" />
 
-This board contains circuitry for power delivery, ESC commanding, and LoRa interfacing for a robust electrical system.
+This repo board contains all firmware and electronics for power delivery, ESC commanding, and LoRa interfacing for a robust electrical system.
 
-## Features:
+## Mina Board Features:
 
 **Power Delivery:**
 
