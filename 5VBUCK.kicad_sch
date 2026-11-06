@@ -1726,145 +1726,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+15V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+15V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+15V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+15V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+15V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -2187,12 +2048,6 @@
 		(uuid "0cce32bf-b840-4798-9a36-b8bc0f9f8cde")
 	)
 	(junction
-		(at 68.58 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11e0fd1c-d4b3-40e3-a6b8-2a77a8ed615a")
-	)
-	(junction
 		(at 110.49 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2293,6 +2148,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b847a38-4095-4764-89c5-afd975c50295")
+	)
+	(junction
+		(at 68.58 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "892fd572-b438-435c-86ad-a8968ef34575")
 	)
 	(junction
 		(at 148.59 113.03)
@@ -2449,6 +2310,16 @@
 			(type default)
 		)
 		(uuid "13c96ddb-af09-49ba-9a54-a910a833df0b")
+	)
+	(wire
+		(pts
+			(xy 68.58 69.85) (xy 76.2 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17e05f4c-34c1-4965-80af-84d6d473d6be")
 	)
 	(wire
 		(pts
@@ -2742,6 +2613,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 69.85) (xy 45.72 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "519d681d-f342-417a-871b-caec7ca5d2cf")
+	)
+	(wire
+		(pts
 			(xy 147.32 82.55) (xy 152.4 82.55)
 		)
 		(stroke
@@ -2779,6 +2660,16 @@
 			(type default)
 		)
 		(uuid "5fa498ef-76eb-4c7b-a4a8-9e379b082e4f")
+	)
+	(wire
+		(pts
+			(xy 45.72 69.85) (xy 68.58 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "600be5b2-7624-47f5-8cbe-c80c57a3d9c1")
 	)
 	(wire
 		(pts
@@ -3002,16 +2893,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 69.85) (xy 76.2 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98ce641b-e464-4b90-9f43-44777f422f6b")
-	)
-	(wire
-		(pts
 			(xy 111.76 80.01) (xy 101.6 80.01)
 		)
 		(stroke
@@ -3049,16 +2930,6 @@
 			(type default)
 		)
 		(uuid "a0f01285-73c5-40a9-b285-4048ee07b096")
-	)
-	(wire
-		(pts
-			(xy 66.04 69.85) (xy 68.58 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8aa8a72-8909-437f-850a-9ab84f6ff7cd")
 	)
 	(wire
 		(pts
@@ -3369,6 +3240,30 @@
 			(type default)
 		)
 		(uuid "ff7f21f0-0350-474f-9c54-01b94873d361")
+	)
+	(global_label "PMOS_OUT"
+		(shape input)
+		(at 45.72 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0df1f7a7-e83b-49d7-ab40-2bcdd010cdfc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8772 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -4094,90 +3989,6 @@
 			(project "5VBUCK"
 				(path "/f84643eb-f01e-4897-a1ab-2b8f94318043"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+15V")
-		(at 66.04 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67183a86-1f40-4338-b6c1-f7604aec1284")
-		(property "Reference" "#PWR019"
-			(at 66.04 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+20V"
-			(at 66.04 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 66.04 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dc4af375-b397-458d-ad75-13caee8e8f66")
-		)
-		(instances
-			(project "PDB"
-				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/81a110be-86fb-4821-928a-861e60c1d528"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-			(project "5VBUCK"
-				(path "/f84643eb-f01e-4897-a1ab-2b8f94318043"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
